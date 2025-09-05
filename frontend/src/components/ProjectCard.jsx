@@ -6,7 +6,7 @@ export default function ProjectCard({project}) {
   const navigate = useNavigate();
 
   const onViewClick = (e, projectData)=>{
-    navigate("/funder/projectdescription", { state: { project: projectData } });
+    navigate("/backer/projectdescription", { state: { project: projectData } });
   }
     return (
       <div className="w-lg flex bg-white rounded-2xl shadow-lg overflow-hidden border">

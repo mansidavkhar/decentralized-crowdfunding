@@ -11,9 +11,9 @@ const OurMission = () => {
             </div>
 
             <div className='px-10 py-5'>
-                <p className='py-2'>We empower entrepreneurs—from startups to large enterprises—by enabling accessible funding for renewable energy projects with strong social impact.</p>
-                <p className='py-2'>Our platform connects investors with initiatives like village electrification and urban solar solutions, ensuring transparency, minimal fees, and maximum impact.</p>
-                <p className='py-2'>Through thorough vetting, real-time tracking, and flexible funding models, we make sustainable energy investment seamless and effective.</p>
+                <p className='py-2'>We empower changemakers to launch and fund renewable energy projects through a decentralized crowdfunding platform built on transparency and trust.</p>
+                <p className='py-2'>From community-led solar grids to rural electrification, our platform connects funders with high-impact green initiatives using blockchain-based milestone tracking and DAO-style voting.</p>
+                <p className='py-2'>By minimizing fees, eliminating gatekeepers, and enabling real-time project accountability, we make sustainable energy funding simple, secure, and community-driven.</p>
             </div>
           </div>
       </div>

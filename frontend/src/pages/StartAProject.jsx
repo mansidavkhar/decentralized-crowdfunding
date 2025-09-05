@@ -24,7 +24,7 @@ const StartAProject = () => {
 
         {/* Start Project Button */}
         <div className="text-center">
-        <Link to="/entrepreneur/newprojectdetails">
+        <Link to="/projectowner/newprojectdetails">
           <button
             onClick={handleStartProject}
             className="bg-[#508C9B] hover:bg-[#457a87] text-white font-semibold py-3 px-8 rounded-md transition-colors duration-200"

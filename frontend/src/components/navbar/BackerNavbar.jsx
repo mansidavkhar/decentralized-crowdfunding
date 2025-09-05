@@ -12,11 +12,11 @@ const BackerNavbar = () => {
           <div >
             {/*for responsiveness add classes in the above div */}
             <div className="space-x-10">
-              <Link to="/funder/home" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Home</Link>
-              <Link to="/funder/browseprojects" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Browse Projects</Link>
-              <Link to="/funder/myinvestments" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">My investments</Link>
-              <Link to="/funder/profile" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">My Profile</Link>
-              <Link to="/funder/network" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">Network</Link>
+              <Link to="/backer/home" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Home</Link>
+              <Link to="/backer/browseprojects" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Browse Projects</Link>
+              <Link to="/backer/myinvestments" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">My investments</Link>
+              {/* <Link to="/backer/profile" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">My Profile</Link>
+              <Link to="/backer/network" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">Network</Link> */}
              </div>
           </div>
       </div>

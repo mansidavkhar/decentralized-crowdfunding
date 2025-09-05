@@ -14,6 +14,7 @@ import MyProjects from './components/MyProject'
 //import Profile from './pages/Profile'
 //import Network from './pages/Network'
 import BrowseProjects from './pages/BrowseProjects'
+import BrowseProjectsStatic from './pages/BrowseProjectsStatic'
 import BackerNavbar from './components/navbar/BackerNavbar'
 import MyInvestments from './pages/MyInvestments'
 import ProjectDescription from './pages/ProjectDescription'
@@ -49,12 +50,16 @@ const router = createBrowserRouter([
     element: <><BackerNavbar /><MainLandingPage /><Footer /></>
   },
   {
-    path: '//browseprojects',
+    path: '/backer/browseprojects',
     element: <><BackerNavbar /><BrowseProjects /><Footer /></>
   },
   {
     path: '/backer/myinvestments',
     element: <><BackerNavbar /><MyInvestments /><Footer /></>
+  },
+  {
+    path: '/backer/browseprojectsstatic',
+    element: <><BackerNavbar /><BrowseProjectsStatic /><Footer /></>
   },
   // {
   //   path: '/backer/profile',
@@ -83,27 +88,27 @@ const router = createBrowserRouter([
 
   {/*ProjectOwner pages*/},
   {
-    path: '/projectOwner/home',
+    path: '/projectowner/home',
     element: <><ProjectOwnerNavbar /><MainLandingPage /><Footer /></>
   },
   {
-    path: '/projectOwner/startaproject',
+    path: '/projectowner/startaproject',
     element: <><ProjectOwnerNavbar /><StartAProject /><Footer /></>
   },
   {
-    path: '/projectOwner/newprojectdetails',
+    path: '/projectowner/newprojectdetails',
     element: <><ProjectOwnerNavbar /><NewProjectDetails /><Footer /></>
   },
   {
-    path: '/projectOwner/myprojects',
+    path: '/projectowner/myprojects',
     element: <><ProjectOwnerNavbar /><MyProjects /><Footer /></>
   },
   // {
-  //   path: '/projectOwner/profile',
+  //   path: '/projectowner/profile',
   //   element: <><ProjectOwnerNavbar /><Profile /><Footer /></>
   // },
   // {
-  //   path: '/projectOwner/network',
+  //   path: '/projectowner/network',
   //   element: <><ProjectOwnerNavbar /><Network /><Footer /></>
   // },
 ])

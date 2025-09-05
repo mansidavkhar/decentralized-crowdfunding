@@ -12,11 +12,11 @@ const ProjectOwnerNavbar = () => {
           <div >
             {/*for responsiveness add classes in the above div */}
             <div className="space-x-10">
-              <Link to="/entrepreneur/home" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Home</Link>
-              <Link to="/entrepreneur/startaproject" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Create a Project</Link>
-              <Link to="/entrepreneur/myprojects" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">My projects</Link>
-              <Link to="/entrepreneur/profile" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">My Profile</Link>
-              <Link to="/entrepreneur/network" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">Network</Link>
+              <Link to="/projectowner/home" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Home</Link>
+              <Link to="/projectowner/startaproject" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">Create a Project</Link>
+              <Link to="/projectowner/myprojects" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2">My projects</Link>
+              {/* <Link to="/projectowner/profile" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">My Profile</Link>
+              <Link to="/projectowner/network" className="text-white text-xl hover:underline underline-offset-8 px-5 py-2 font-bold">Network</Link> */}
              </div>
           </div>
       </div>
